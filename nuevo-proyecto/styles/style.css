@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 100vh;
+    background-color: #123456;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main h1{
+    color: white;
+    font-size: 45px;
+}
+#main p{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 3rem;
+    text-align: center;
+}
+#main button{
+    border: none;
+    padding: 10px 2px;
+    background-color: aquamarine;
+    color: black;
+    width: 10%;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
